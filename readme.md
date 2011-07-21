@@ -15,7 +15,7 @@ Then copy paste the build in packaged/ to the root of your vim-pathogen package.
 ### To update all packages
 
 ```bash
-https://raw.github.com/anirudhjoshi/pathogen_package_automater/master/update_all.sh | sh
+curl https://raw.github.com/anirudhjoshi/pathogen_package_automater/master/update_all.sh | sh
 ```
 
 or if you have the repo
