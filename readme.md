@@ -1,4 +1,4 @@
-This project automates install/update/uninstall of pathogen packages for vim.
+This project automates the creation of install/update/uninstall scripts and the readme.md for vim-pathogen packages.
 
 ### Usuage
 
@@ -8,4 +8,4 @@ Fill out the variables in build.sh with your details (username/package name|url|
 ./build.sh
 ```
 
-Then copy paste the build in packaged to the root of your pathogen package.
+Then copy paste the build in packaged/ to the root of your vim-pathogen package.
