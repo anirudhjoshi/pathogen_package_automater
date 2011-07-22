@@ -1,10 +1,9 @@
 #!/bin/sh
 
 PATHOGEN_PACKAGE_NAME="VimClojure"
-PATHOGEN_PACKAGE_SHORT_DESCRIPTION="Vim runtime files for clojure" 
 PATHOGEN_PACKAGE_NAME_URL="http://www.vim.org/scripts/script.php?script_id=2501"
 YOUR_GITHUB_USERNAME="anirudhjoshi"
-ORIGIN_GITHUB_USERNEM="vim-scripts"
+ORIGIN_GITHUB_USERNAME="vim-scripts"
 
 return_dir=`pwd`
 
@@ -17,7 +16,6 @@ echo $1 | sed -e 's/\(\.\|\/\|\*\|\[\|\]\|\\\)/\\&/g'
 }
 
 sed -i "s/PATHOGEN_PACKAGE_NAME/$(escape $PATHOGEN_PACKAGE_NAME)/g" *
-sed -i "s/PATHOGEN_PACKAGE_SHORT_DESCRIPTION/$(escape $PATHOGEN_PACKAGE_SHORT_DESCRIPTION)/g" *
 sed -i "s/PATHOGEN_PACKAGE_NAME_URL/$(escape $PATHOGEN_PACKAGE_NAME_URL)/g" *
 sed -i "s/YOUR_GITHUB_USERNAME/$(escape $YOUR_GITHUB_USERNAME)/g" *
 sed -i "s/ORIGIN_GITHUB_USERNAME/$(escape $ORIGIN_GITHUB_USERNAME)/g" *

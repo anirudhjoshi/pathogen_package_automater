@@ -1,4 +1,4 @@
-This project adds [PATHOGEN_PACKAGE_NAME] support to the vim editor. PATHOGEN_PACKAGE_SHORT_DESCRIPTION
+This project adds [PATHOGEN_PACKAGE_NAME] support to the vim editor.
 
 [PATHOGEN_PACKAGE_NAME]: PATHOGEN_PACKAGE_NAME_URL
 
