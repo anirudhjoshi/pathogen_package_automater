@@ -2,7 +2,9 @@
 
 return_dir=`pwd`
 
-cp packaged/* $1
+rm -rf $1/*
+
+cp ./packaged/* $1
 
 cd $return_dir
 
