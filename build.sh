@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PATHOGEN_PACKAGE_NAME="vim-clojure"
+PATHOGEN_PACKAGE_NAME="VimClojure"
 PATHOGEN_PACKAGE_SHORT_DESCRIPTION="Vim runtime files for clojure" 
 PATHOGEN_PACKAGE_NAME_URL="http://www.vim.org/scripts/script.php?script_id=2501"
 YOUR_GITHUB_USERNAME="anirudhjoshi"
