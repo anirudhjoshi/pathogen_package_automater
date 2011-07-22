@@ -29,7 +29,7 @@ then
 else
 
 	echo "Cloning PATHOGEN_PACKAGE_NAME"
-	git clone --depth=1 git://github.com/YOUR_GITHUB_USERNAME/PATHOGEN_PACKAGE_NAME.git
+	git clone --depth=1 git://github.com/ORIGIN_GITHUB_USERNAME/PATHOGEN_PACKAGE_NAME.git
 
 fi
 
